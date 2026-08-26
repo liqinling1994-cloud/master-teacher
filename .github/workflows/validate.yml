@@ -1,0 +1,45 @@
+name: 验证 Skill
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: 结构与 DOCX 冒烟测试
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 配置 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            skills/master-teacher/tools/package-lock.json
+
+      - name: 安装仓库依赖
+        run: npm ci
+
+      - name: 验证仓库结构
+        run: npm test
+
+      - name: 安装 DOCX 工具依赖
+        run: npm ci --prefix skills/master-teacher/tools
+
+      - name: 生成 DOCX 样例
+        run: node skills/master-teacher/tools/docx-generator.js tests/fixtures/sample-plan.json tests/output/sample.docx
+
+      - name: 检查输出文件
+        run: test -s tests/output/sample.docx

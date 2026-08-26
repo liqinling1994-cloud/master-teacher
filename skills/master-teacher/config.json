@@ -1,0 +1,36 @@
+{
+  "version": "4.1.0",
+  "name": "名师问问",
+  "defaults": {
+    "教材版本": "统编版",
+    "课时": 1,
+    "输出类型": "完整教学设计",
+    "输出格式": "dual",
+    "学情": "中等水平"
+  },
+  "presets": {
+    "available_subjects": ["语文", "数学", "英语", "物理", "化学", "生物", "历史", "地理", "道法", "音乐", "美术", "体育", "信息技术", "科学", "综合实践", "心理健康"],
+    "available_output_types": ["完整教学设计", "公开课全案", "说课稿", "微课脚本", "快速备课提纲", "评课建议"],
+    "available_output_formats": ["dual", "md_only", "word_only"],
+    "available_grades": {
+      "小学": ["一年级", "二年级", "三年级", "四年级", "五年级", "六年级"],
+      "初中": ["七年级", "八年级", "九年级"],
+      "高中": ["高一", "高二", "高三"]
+    },
+    "student_levels": ["基础偏弱", "中等水平", "基础较好", "差异大"]
+  },
+  "teacher_profile": null,
+  "word_settings": {
+    "paper": "A4",
+    "margin": {"top": "2.54cm", "bottom": "2.54cm", "left": "3.17cm", "right": "3.17cm"},
+    "line_spacing": 1.5,
+    "fonts": {
+      "title": {"name": "黑体", "size": "小二", "bold": true, "align": "center"},
+      "heading1": {"name": "黑体", "size": "小三", "bold": true},
+      "heading2": {"name": "黑体", "size": "四号", "bold": false},
+      "body": {"name": "宋体", "size": "小四"},
+      "note": {"name": "楷体", "size": "五号"}
+    },
+    "output_path": "auto"
+  }
+}

@@ -1,0 +1,8 @@
+interface:
+  display_name: "名师问问"
+  short_description: "融合课程标准与名师方法论，生成可落地的教学方案"
+  brand_color: "#2F6B4F"
+  default_prompt: "使用 $master-teacher 为这节课设计一份有课标依据、方法来源和评价任务的教学方案。"
+
+policy:
+  allow_implicit_invocation: true

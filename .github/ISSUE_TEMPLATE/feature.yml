@@ -1,0 +1,28 @@
+name: 功能建议
+description: 建议新的学科资料、教学能力、工具或协作改进
+title: "[建议] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 使用场景
+      description: 谁在什么情况下遇到了什么困难？
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议方案
+      description: 请描述期望行为、输出或资料结构。
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: 可核验来源
+      description: 新增名师或课程标准资料时请提供链接、出版物或出处。
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 已尝试的替代方案

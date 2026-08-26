@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "如果本项目帮助了你的教学设计或研究，请引用本仓库。"
+title: "名师问问：课程标准与名师方法论融合的教学设计 Skill"
+type: software
+authors:
+  - family-names: "秦"
+    given-names: "岭"
+version: 4.1.0
+date-released: 2026-08-26
+license: MIT
+repository-code: "https://github.com/liqinling1994-cloud/master-teacher"
+url: "https://github.com/liqinling1994-cloud/master-teacher"

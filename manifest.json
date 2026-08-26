@@ -1,0 +1,27 @@
+{
+  "name": "master-teacher",
+  "display_name": "名师问问",
+  "version": "4.1.0",
+  "owner": "秦岭",
+  "updated_at": "2026-08-26",
+  "status": "active",
+  "entrypoint": "skills/master-teacher/SKILL.md",
+  "license": "MIT",
+  "repository": "https://github.com/liqinling1994-cloud/master-teacher",
+  "target_platforms": [
+    "openai",
+    "claude",
+    "generic",
+    "agent-skills-compatible"
+  ],
+  "resources": {
+    "subjects": 16,
+    "index_files": 6,
+    "indexed_entries": 123,
+    "unique_educators": 113,
+    "deep_profiles": 4,
+    "curriculum_guides": 3,
+    "output_types": 6,
+    "examples": 1
+  }
+}

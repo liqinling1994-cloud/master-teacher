@@ -1,0 +1,46 @@
+name: 缺陷报告
+description: 报告 Skill、资料索引、文档或 DOCX 工具中的可复现问题
+title: "[缺陷] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: 感谢反馈。请先删除访问令牌、个人路径和学生信息。
+  - type: input
+    id: version
+    attributes:
+      label: 版本
+      placeholder: 例如 v4.1.0
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: 问题范围
+      options:
+        - Skill 执行
+        - 名师索引或资料
+        - 课程标准资料
+        - DOCX 生成器
+        - 安装或文档
+        - 自动化工作流
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤
+      description: 请提供最小复现输入、执行步骤和实际结果。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望结果
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: 环境
+      placeholder: 操作系统、Agent、Node.js 版本等

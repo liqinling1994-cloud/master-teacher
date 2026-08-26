@@ -1,0 +1,13 @@
+{
+  "name": "master-teacher-docx",
+  "version": "4.1.0",
+  "description": "名师问问 Word 文档生成工具",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "check": "node --check docx-generator.js"
+  },
+  "dependencies": {
+    "docx": "^8.5.0"
+  }
+}
