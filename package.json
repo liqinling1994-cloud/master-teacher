@@ -1,6 +1,6 @@
 {
   "name": "master-teacher-skill-repository",
-  "version": "4.1.0",
+  "version": "4.2.0",
   "private": true,
   "description": "名师问问开源仓库的结构验证与文档生成测试",
   "license": "MIT",

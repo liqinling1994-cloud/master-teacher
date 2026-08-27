@@ -10,8 +10,9 @@ npx skills add liqinling1994-cloud/master-teacher --skill master-teacher
 
 - 16 subject areas and 6 subject index files.
 - 123 indexed entries covering 113 unique educators.
-- 4 in-depth methodology profiles.
-- Curriculum guides for Chinese, mathematics, and English.
+- 8 in-depth methodology profiles across Chinese, mathematics, English, physics, and chemistry.
+- Curriculum guides for 9 subjects (Chinese, mathematics, English, physics, chemistry, biology, history, geography, and ethics & rule of law) based on the 2022 compulsory education standards.
+- On-demand lookup for educators not yet in the index, gated by user confirmation and labeled with a confidence level.
 - 6 deliverable types: lesson plan, open-class package, teaching presentation, micro-lesson script, quick outline, and lesson review.
 - A Node.js DOCX generator with reproducible smoke tests.
 
