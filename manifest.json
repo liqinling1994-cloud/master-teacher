@@ -1,9 +1,9 @@
 {
   "name": "master-teacher",
   "display_name": "名师问问",
-  "version": "4.2.0",
+  "version": "5.4.0",
   "owner": "秦岭",
-  "updated_at": "2026-08-27",
+  "updated_at": "2026-08-28",
   "status": "active",
   "entrypoint": "skills/master-teacher/SKILL.md",
   "license": "MIT",
@@ -16,11 +16,11 @@
   ],
   "resources": {
     "subjects": 16,
-    "index_files": 6,
-    "indexed_entries": 123,
-    "unique_educators": 113,
-    "deep_profiles": 8,
-    "curriculum_guides": 9,
+    "index_files": 15,
+    "indexed_entries": 160,
+    "unique_educators": 160,
+    "deep_profiles": 26,
+    "curriculum_guides": 15,
     "output_types": 6,
     "examples": 1
   }
