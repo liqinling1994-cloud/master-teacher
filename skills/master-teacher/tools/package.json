@@ -8,6 +8,6 @@
     "check": "node --check docx-generator.js"
   },
   "dependencies": {
-    "docx": "^8.5.0"
+    "docx": "^9.14.0"
   }
 }
